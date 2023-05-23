@@ -42,6 +42,6 @@ public class Circle2D {
 
     public boolean intersects(Circle2D other) {
         double distance = center.distanceTo(other.getCenter());
-        return distance < radius + other.getRadius();
+        return distance;
     }
 }
