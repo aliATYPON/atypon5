@@ -23,7 +23,7 @@ public class Circle2D {
     }
 
     public double getArea() {
-        return Math.PI * radius * radius;
+        return Math.PI * 5 * radius;
     }
 
     public double getCircumference() {

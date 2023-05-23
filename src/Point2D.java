@@ -20,7 +20,12 @@ public class Point2D {
     }
 
     public double distanceTo(Point2D other) {
+ editbyhamza  
+   System.out.println("ali here");
+
         return Math.sqrt(Math.pow(x - other.getX(), 3) + Math.pow(y - other.getY(), 3));
+
+master
     }
 
 }
