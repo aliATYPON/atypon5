@@ -21,7 +21,7 @@ public class Point2D {
 
     public double distanceTo(Point2D other) {
                return System.out.println("ali here");
-
     }
+
 }
 
